@@ -1,0 +1,230 @@
+<html>
+<head>
+<title>Anders Farr</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+	ul {
+		list-style-type: none;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		z-index: 3
+	}
+	.bg {
+		/* The image used */
+		background-image: url("Forest_Background.jpg");
+
+		/* Full height */
+		height: 660px;
+
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.bg1 {
+		/* The image used */
+		background-image: url("WaterColor.jpg");
+
+		/* Full height */
+		height: 100%;
+
+		/* Center and scale the image nicely */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	ul#horizontal-list{
+		min-width: 500px;
+		list-style: none;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		width: 100%;
+		z-index: 3;
+		}
+	ul#horizontal-list li{
+		display: inline-block;
+		border-right: 1px solid white;
+	}
+	ul#horizontal-list li:last-child{
+		border:none;
+	}
+	ul#header-list {
+		position: fixed;
+		top: 0;
+		background-color: white;
+		opacity: 0.87
+	}
+	ul#header-list li {
+		display:inline;
+		border-right: 1px solid #294381;
+	}
+	ul#header-list li:last-child{
+		border: none;
+	}
+	.middleList {
+		background-color : #eae2b3;
+		opacity: 0.80
+	}
+	.table {
+		display: table;
+		margin: -150px auto;
+		background-color : #eae2b3;
+		z-index: 2;
+	}
+	li {
+		display:inline;
+		border-right: 1px solid #294381;
+	}
+	li:last-child{
+		border: none;
+	}
+	li a {
+		display: block;
+		color: black;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	li a:hover{
+		background-color: #858585;
+	}
+	li b {
+		padding: 40px;
+		color: white;
+		text-align: center;
+		text: none;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 25;
+	}
+	h1 {
+		font-family:Arial, Helvetica, sans-serif;
+		color: dark-gray;
+	}
+	p{
+		font-family: Arial, Helvetica, sans-serif;
+		color: dark-gray;
+		overflow-wrap:break-word;
+	}
+	div.text{
+		background-color: white;
+		opacity: 1;
+	}
+	.active {
+		background-color: #bac5de;
+	}
+	img {
+	  border:solid 2px;
+	  border-bottom-color:#ffe;
+	  border-left-color:#eed;
+	  border-right-color:#eed;
+	  border-top-color:#ccb;
+	  max-height:100%;
+	  max-width:100%;
+	}
+	.mySlides {
+		display:none; 
+		max-height: 100%;
+		max-width: 100%;
+	}
+	.frame {
+	  background-color:#ddc;
+	  border:solid 5vmin #eee;
+	  border-bottom-color:#fff;
+	  border-left-color:#eee;
+	  border-radius:2px;
+	  border-right-color:#eee;
+	  border-top-color:#ddd;
+	  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+	  box-sizing:border-box;
+	  display:inline-block;
+	  margin:10vh 10vw;
+	  height:80vh;
+	  padding:8vmin;
+	  position:relative;
+	  text-align:center;
+	  &:before {
+		border-radius:2px;
+		bottom:-2vmin;
+		box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+		content:"";
+		left:-2vmin;
+		position:absolute;
+		right:-2vmin;
+		top:-2vmin;
+	  }
+		&:after {
+		border-radius:2px;
+		bottom:-2.5vmin;
+		box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+		content:"";
+		left:-2.5vmin;
+		position:absolute;
+		right:-2.5vmin;
+		top:-2.5vmin;
+	  }
+	}
+	.h1fancy{
+		font-family: "Lucida Handwriting", "Lucida Handwriting" ,Cursive;
+	}
+</style>
+</head>
+<body>
+<div style = "z-index: 3">
+	<ul id = "header-list">
+		<li style = "float:left"><a href="index.html">Anders Farr</a></li>
+		<li style = "float :left"><a href="#home" class ="active">About</a></li>
+		<li style = "float:left"><a href="news.asp">Experience</a></li>
+		<li style="float:right"><a href="about.asp">Contact</a></li>
+	</ul>
+</div>
+<div  class = "bg" style = "position: relative; width:100%; z-index:1; top: 50px; bottom">
+	<ul id = "horizontal-list" style = "padding-top: 0">
+		<li>
+			<div class = "text" style = "position: absolute; max-width: 100%; max-height:98%; background-color: transparent">
+				<h1>Hi There!</h1>
+				<p>My name's Anders and welcome to my portfolio website. </p>
+				<p>I hope this gives you a greater indication of my experience, projects and personality.</p>
+				<p>Be sure to check out the Experience and Projects Tab!</p>
+				<h1>About Me...</h1>
+				<p>I'm currently attending Queen's University in a program that combines advanced mathematics and computer engineering. I'm currently in my fifth year, since I recently completed a year-long internship at Intel in Toronto.</p>
+				<p>I love the outdoors, travel and going on adventures with my friends! I'm passionate about rock climbing, skiing, hiking, mountain biking and surfing!</p>
+				<p>Some of my ideal trip goals are to travel to South America and Southeast Asia, get my scuba diving license and summit Mt. Denali in Alaska.</p>
+				<p>While I go to school in Ontario, I'm hoping to move to Vancouver or somewhere in British Columbia when I graduate.</p>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<div class = "bg1" style = "align: center; z-index: 2">
+	<h1 class = "h1fancy" style = "align: center; z-index: 2;">Pictures</h1>
+	<div class = "frame" style = "align: center">
+		<img class="mySlides w3-animate-fading" src = "Anders in the Forest.jpg" alt = "Forest"></img>
+		<img class="mySlides w3-animate-fading" src="Anders at CEEC.jpg" alt = "CEEC"></img>
+		<img class="mySlides w3-animate-fading" src="Anders on a Cliff.jpg" alt = "Cliff"></img>
+		<img class="mySlides w3-animate-fading" src="Anders Scuba Diving.jpg" alt = "Scuba"></img>
+		<img class="mySlides w3-animate-fading" src="Anders at a Campfire.jpg" alt = "Campfire"></img>
+	</div>
+</div>
+
+</body>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 10000); // Change image every 2 seconds
+}
+</script>
+
+</html>

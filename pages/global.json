@@ -1,0 +1,54 @@
+{
+    "site_name": "Anders Farr Portfolio",
+    "img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
+    "img_logo_nav": "https://lh3.googleusercontent.com/G9jMJ4IxCsf_2JQBozuR5Mo6TbHFKOwH6qY2wmokePl9-J1NBZYU-gVW2FyHZZ38t274Cd91MigzXDodHUpATEVeTtc4bC6E0XZxIWV2",
+    "img_logo_footer": "https://lh3.googleusercontent.com/NMh7wpEQQBSfwPo7uo7aZY8XBfh3GBjVqhtslM3jGuKXSrlvdUlWSNclGliHaYjBCKERDcuMsrDyt9WoTwHdc0iZn14",
+    "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
+    "header_nav": {
+        "nav1": {
+            "text": "Projects",
+			"link": "/project",
+            "show_or_hide": true
+        },
+        "nav2": {
+            "text": "Experience",
+			"link": "/experience",
+            "show_or_hide": true
+        },
+        "nav3": {
+            "text": "Contact",
+			"link": "/contact",
+            "show_or_hide": true
+        }
+    },
+    "social": {
+        "facebook": {
+            "link": "https://www.facebook.com",
+            "show_or_hide": true
+        },
+        "twitter": {
+            "link": "https://www.twitter.com",
+            "show_or_hide": true
+        },
+        "linkedin": {
+            "link": "https://www.linkedin.com",
+            "show_or_hide": true
+        },
+        "instagram": {
+            "link": "https://www.instagram.com",
+            "show_or_hide": true
+        },
+        "youtube": {
+            "link": "https://www.youtube.com",
+            "show_or_hide": true
+        },
+        "github": {
+            "link": "https://www.github.com",
+            "show_or_hide": true
+        },
+        "dribbble": {
+            "link": "https://www.dribbble.com",
+            "show_or_hide": true
+        }
+    }
+}

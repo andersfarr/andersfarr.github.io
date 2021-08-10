@@ -1,17 +1,99 @@
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-</table>
+<html>
+<head>
+<title>Anders Farr</title>
+<link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</link>
+<style>
+body, html {
+	height: 98%
+}
+h1 {
+	animation: fadeInDown;
+	animation-duration: 2s;
+	font-family: "Lucida Handwriting", "Lucida Handwriting" ,Cursive;
+	font-size: 60px;
+	text-align: center;
+	position: relative;
+	top: 40px;
+}
+p {
+	animation: fadeInDown;
+	animation-duration: 2s;
+	font: Quicksand;
+	font-size: 24px;
+	text-align: center;
+	position: relative;
+	top: 40px
+}
+
+.table {
+		display: table;
+		margin: 0px auto;
+		animationL fadeIn;
+		animation-duration: 2s;
+		
+	}
+.bg {
+  /* The image used */
+  background-image: url("Background Image Homepage.jpg");
+
+  /* Full height */
+  height: 98%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	z-index: 3
+}
+ul#horizontal-list{
+	min-width: 500px;
+	list-style: none;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	z-index: 3;
+	}
+ul#horizontal-list li{
+	display: inline;
+	border-right: 1px solid black;
+}
+ul#horizontal-list li:last-child{
+	border:none;
+}
+
+li a {
+	padding: 40px;
+	color: black;
+	text-align: center;
+	text: none;
+	font: Quicksand;
+	font-size: 24px;
+}
+</style>
+</head>
+<body class = "bg">
+<div class = "bg">
+<h1>Anders Farr</h1>
+<p class="animate__animated animate__fadeInDown animate__delay-1s">Software Developer</p>
+<p class="animate__animated animate__fadeInDown animate__delay-2s">Engineer</p>
+<p class="animate__animated animate__fadeInDown animate__delay-3s">Mathematician</p>
+<div class = "table animate__animated animate__fadeIn animate__delay-5s" style = "position:relative; top: 30px; align: center;">
+	<ul id = "horizontal-list">
+		<li><a href = "about_page.html">About</a></li>
+		<li><a>Experience</a></li>
+		<li><a>Projects</a></li>
+		<li><a>Contact</a></li>
+	</ul>
+</div>
+</body>
+</html>
+
+

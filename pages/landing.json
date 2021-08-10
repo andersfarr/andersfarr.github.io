@@ -1,0 +1,60 @@
+{
+	"hero": {
+		"img_background": "https://lh3.googleusercontent.com/FTEwZDselugqbUszmwUEpJhU-BhwCG57DcMSw73Rps0UsnowBGW95YSlCRpy-qzvHKSuDUeA9WGLwokOeHVCbVR9TnuOSNrIDD3bd9Pb=s2048",
+		"greeting": "Anders Farr",
+		"introduction": "Software Developer | Engineer | Mathematician",
+		"img_profile": "https://lh3.googleusercontent.com/JGfg3zT7tbNC-c-X96z_ACQyk_uNpDccvSCDlWADXn-SfLJomZsPf5NVzHNPn9BfoCUmGDrSLd7sprL5Zx4q5JDjERsimV68VK7LAw"
+	},
+	"feature": {
+		"img_welcome": "https://lh3.googleusercontent.com/exW-Uwql1M-uyI-0iVVSy2drfHNt_ganX9TMXfcVXCvP72SNcV3leYtMuLyBbfiJqd5apn40r6icLiI_ytwhZ1aQGSWmt1msFDe-2gg",
+		"greeting": "Hi there...",
+		"greeting_1": "My name's Anders and welcome to my portfolio website!",
+		"greeting_2": "I hope this gives you a greater indication of my experience, projects and personality."
+	},
+	"about": {
+		"img_aboutme": "https://lh3.googleusercontent.com/jRVUIxoOYakfIsbN23B17SQ2IkE1HenJs9DoeN_e9ihwVjkT7VABAz0pN93AiePFRYetsUO-nRJnyX78rqtv0jtrW82Ul2krwAvk3vE",
+		"head": "About Me",
+		"about_1": "I'm currently attending Queen's University in a program that blends advanced mathematics and computer engineering. I'm in my final year after recently completing a year-long internship at Intel.",
+		"about_4": "While I go to school in Ontario, I plan to move to British Columbia when I graduate."
+	},
+	"info":{
+		"img_info": "https://lh3.googleusercontent.com/lOy4mvlTwlMsASHxfRzOTrka4oqCE9KTvqC5EMCUvb2O62ZjoJTzb293CzpBrTGgsVYqHTTOeTvqIWDYBDLCYIkSAXtJpS_bcHn6SQ",
+		"about_2": "I love the outdoors, travel and going on adventures with my friends! I'm passionate about rock climbing, skiing, hiking, mountain biking and surfing!",
+		"about_3": "Some of my ideal trip goals are to travel to South America and Southeast Asia, get my scuba diving license and summit Mt. Denali in Alaska."
+	},
+	"global":{
+		"site_name": "Anders Farr Portfolio",
+		"img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
+		"img_logo_nav": "https://lh3.googleusercontent.com/G9jMJ4IxCsf_2JQBozuR5Mo6TbHFKOwH6qY2wmokePl9-J1NBZYU-gVW2FyHZZ38t274Cd91MigzXDodHUpATEVeTtc4bC6E0XZxIWV2",
+		"img_logo_footer": "https://lh3.googleusercontent.com/gq-iQEDUzEaXqvbLHwtftVQuJg1_XU1BvkfWrb-MXJ0zMwvxXZZAEOYwjt2izV-dr7kMQYENuBDMdkk6C8sHAn3j8eXzQZ76qGCfhbU",
+		"subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
+		"header_nav": {
+			"nav1": {
+				"text": "Projects",
+				"link": "/project",
+				"show_or_hide": true
+			},
+			"nav2": {
+				"text": "Experience",
+				"link": "/experience",
+				"show_or_hide": true
+			},
+			"nav3": {
+				"text": "Contact",
+				"link": "/contact",
+				"show_or_hide": true
+			}
+		},
+		"social": {
+			"linkedin": {
+				"link": "https://www.linkedin.com/in/anders-farr",
+				"show_or_hide": true
+			},
+			"github": {
+				"link": "https://www.github.com/andersfarr",
+				"show_or_hide": true
+			}
+		}
+	}
+}
+		
